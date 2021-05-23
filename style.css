@@ -537,5 +537,68 @@ header .sticky{
 	text-align: center;
   }
  
+  /*--------------------------------------------------------------
+# Team
+--------------------------------------------------------------*/
+.team {
+	background:url("1852.jpg")no-repeat center;
+	padding: 60px;
+  }
+
+
+  
+  .team .member {
+	overflow: hidden;
+	text-align: center;
+	margin-top: 20px;
+	border-radius: 5px;
+	background: #fff;
+	box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+	transition: 0.3s;
+  }
+  
+  .team .member .member-img {
+	position: relative;
+	overflow: hidden;
+  }
+  
+  .team .member .member-img:after {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+	background: url(../img/team-shape.svg) no-repeat center bottom;
+	background-size: contain;
+	z-index: 1;
+  }
+  
+  .team .member .member-info {
+	padding: 10px 15px 20px 15px;
+  }
+  
+  .team .member .member-info h4 {
+	font-weight: 700;
+	margin-bottom: 5px;
+	font-size: 20px;
+	color:  brown;
+  }
+  
+  .team .member .member-info span {
+	display: block;
+	font-size: 14px;
+	font-weight: 400;
+	color: #aaaaaa;
+  }
+  
+  .team .member:hover {
+	transform: scale(1.06);
+	box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+  }
+  
+  
  
  
